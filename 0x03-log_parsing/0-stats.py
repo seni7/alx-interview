@@ -2,7 +2,12 @@
 """
 Log parsing
 """
+#!import sys
+#!/usr/bin/python3
+import random
 import sys
+from time import sleep
+import datetime
 
 
 def print_metrics(file_size, status_codes):
